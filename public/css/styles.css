@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  padding-top: 200px;
+  background: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  display: inline-grid;
+}
+input {
+  width: 230px;
+  padding: 10px;
+  border-width: thin;
+  outline: none;
+}
+
+.top {
+  margin-top: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.middle {
+  border-radius: 0 0 0 0;
+  border-width: 0 1px 0 1px;
+}
+.bottom {
+  border-radius: 0 0 5px 5px;
+}
+button {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.success,
+.failure {
+  max-height: max-content;
+  background: grey;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding: 40px 40px 100px 40px;
+}
+
+.success > h1,
+.failure > h1 {
+  font-size: 3.5rem;
+  margin: 2px 0;
+}
